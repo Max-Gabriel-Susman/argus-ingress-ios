@@ -5,6 +5,7 @@
 //  Created by Max Gabriel Susman on 10/27/24.
 //
 
+import HaishinKit
 import AVFoundation
 import CoreImage
 
