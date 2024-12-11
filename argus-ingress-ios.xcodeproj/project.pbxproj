@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		00CB381A2D09624900177A41 /* HaishinKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00CB38192D09624900177A41 /* HaishinKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		000EC9AE2CCEB2B10006C048 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CB381A2D09624900177A41 /* HaishinKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "argus-ingress-ios";
 			packageProductDependencies = (
+				00CB38192D09624900177A41 /* HaishinKit */,
 			);
 			productName = "argus-ingress-ios";
 			productReference = 000EC99D2CCEB2B00006C048 /* argus-ingress-ios.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 000EC9942CCEB2B00006C048;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				00CB38182D09624900177A41 /* XCRemoteSwiftPackageReference "HaishinKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 000EC99E2CCEB2B00006C048 /* Products */;
 			projectDirPath = "";
@@ -560,6 +569,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00CB38182D09624900177A41 /* XCRemoteSwiftPackageReference "HaishinKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shogo4405/HaishinKit.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00CB38192D09624900177A41 /* HaishinKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00CB38182D09624900177A41 /* XCRemoteSwiftPackageReference "HaishinKit" */;
+			productName = HaishinKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 000EC9952CCEB2B00006C048 /* Project object */;
 }
